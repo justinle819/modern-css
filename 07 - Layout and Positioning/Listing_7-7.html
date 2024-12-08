@@ -13,10 +13,19 @@
     background-color: blue;
     position: relative;
     left: 10px;
-    top: 10px;
+    top: 15px;
+  }
+
+  @keyframes slide {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100px;
+    }
   }
 </style>
 
 <div class="block"></div>
-<div class="block relative"></div>
+<div class="block relative slide"></div>
 <div class="block green"></div>
